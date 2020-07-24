@@ -1,0 +1,102 @@
+html body
+{
+	margin: 0px ;
+	padding: 0px;
+	font-family: tahoma ;
+}
+/*Nvigation Bar*/
+.navbar
+{
+
+	background-color: #3b6978 ;
+	opacity: 0.7;
+}
+.navbar .navbar-brand
+{
+	color: #ffffdd;
+	font-weight: bolder ;
+	letter-spacing: 3px ;
+	text-transform: uppercase;
+	opacity: 2
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+	font-weight: 400 ;
+}
+/*/Navigation Bar*/
+
+/*carousel*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-inner .carousel-item .thank-text h1 strong 
+{
+	color: #ffffdd ;
+	text-shadow: 2px 2px #3b6978;
+}
+.carousel-inner .carousel-item .thank-text h4 strong
+{
+	color: #3b6978;
+	background-color: #ffffdd ;
+	opacity: 0.5 ;
+	font-weight: bold;
+}
+.header-cont
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carousel-item .mt
+{
+	margin-top: 10rem;
+}
+/*/carousel*/
+/* Big Card */
+.big-card
+{
+	border: none;
+	color : #3b6978;
+	font-size: 20px ;
+}
+.big-card .card-img-top
+{
+	height: 90%
+}
+.big-card .card-title
+{
+	font-weight: bold ;
+}
+.big-card .card-text
+{
+	font-size: 23px ;
+}
+.card .text-muted
+{
+	text-align: left;
+}
+.pc-sec
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inner
+{
+    overflow: hidden;
+}
+.inner img
+{
+    transition: all 1.5s ease ;
+}
+.inner:hover img
+{
+    transform: scale(1.5);
+}
+/*/Big Card*/
